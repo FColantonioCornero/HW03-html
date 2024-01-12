@@ -2,22 +2,28 @@
 <html lang="es">
 
 <head>
-    <title>Mi página web</title>
+    <title class="title">Mi página web</title>
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="stylesheet" href="./reset.css">
 </head>
 
-<body>
+<body >
     <header>
-        <h1>Mi página web</h1>
-        <p>Mi nombre es {Franco Colantonio Cornero}.</p>
+        <div class="titulo" id="titulo">
+            <h1 class="title" id="aas">Mi página web</h1>
+            <p class="miTexto">Mi nombre es {Franco Colantonio Cornero}.</p>
+            <p> esta es la primera parte con estilos de la pagina</p>
+        </div>
     </header>
 
     <hr>
 
     <main>
-        <img src="./holamushasho.jpeg" alt="">
+        <img src="./holamushasho.jpeg" alt="" class="ima">
         <section>
-            <h2> Probando nuevos titulos</h2>
+            <h2 class="title">esta es la seccion de los nuevos parches de la temporada 14</h2>
             <div>
+                <h2 class="title"> Probando nuevos titulos</h2>
                 <p> Probando texto </p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ducimus magnam expedita ullam tempore
                     eos temporibus sequi quia cupiditate nam doloremque tenetur, voluptatem earum reprehenderit veniam
@@ -25,12 +31,42 @@
                     minus repellendus molestiae!</p>
             </div>
         </section>
-        
+
         <hr>
-        
+
         <section>
+            <div id="contain">
+                <div class="imas">
+                    <h3>Top</h3>
+                    <img src="./top.png" alt="" >
+                </div>
+
+                <div class="imas" >
+                    <h3>Support</h3>
+                    <img src="./supp.jpg" alt=""  id="achi">
+                </div> 
+
+                <div class="imas">
+                <h3>Bot</h3>
+                <img src="./bot.png" alt="" >
+                </div> 
+
+                <div class="imas">
+                    <h3>Mid</h3>
+                    <img src="./mid.jfif" alt="">
+                </div>
+
+                <div class="imas">
+                    <h3>Jg</h3>
+                    <img src="./jg.jfif" alt="" >
+                </div>
+
+
+            </div>
+
+
             <article>
-                <h3>Lista</h3>
+                <h3 class="title">Lista</h3>
                 <p>Crearemos una lista equis</p>
                 <ol>
                     <li>Nerf irelia</li>
@@ -41,12 +77,25 @@
             </article>
             <hr>
             <article>
-                <h3>Lista desordenada</h3>
+                <h3 class="title">Lista desordenada</h3>
                 <ul>
                     <li> cambio a la titanica</li>
                     <li> nerf al brillo</li>
                 </ul>
 
+            </article>
+            <hr>
+            <article> 
+                <h3> Aqui veremos toda la informacion brindada </h3>
+                <p>HTMl</p>  
+                <img src="./Captura de pantalla 2024-01-08 122627.png" alt="" class="ima">
+                <p>Link de Css  </p>
+                <ul>
+                    <li>https://flexboxfroggy.com/#es</li>
+                    <li>https://www.mclibre.org/consultar/htmlcss/css/css-propiedades.html#</li>
+                    <li>http://www.flexboxdefense.com</li>
+                    <li>https://lenguajecss.com/css/selectores/pseudoclases/</li>
+                </ul>
             </article>
         </section>
     </main>
@@ -54,12 +103,12 @@
     <hr>
 
     <footer>
-        <h4>Deja tus comentarios (pie de pagina)</h4>
+        <h4 class="title">Deja tus comentarios (pie de pagina)</h4>
         <p>Enviar por :</p>
-        <span>Gaviota   </span>
+        <span>Gaviota </span>
         <span> <a href="./contacto.html">Formulario de contaco</a> </span>
-        <span>Alibaba   </span>
-        <span>A patita  </span>
+        <span>Alibaba </span>
+        <span>A patita </span>
         <a href="./redireccionando.html">Adios pequeña</a>
     </footer>
 </body>
